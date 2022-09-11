@@ -20,7 +20,7 @@ def partition(text):
     return sentences
 
 
-def learn(address, model_name):
+def learn(address):
     while not path.isfile(address):
             address = input("Введите корректный адрес: ")
     f = open(address, encoding="utf-8")
